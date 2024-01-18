@@ -14,7 +14,6 @@ body {
 
 .container {
   width: 100%;
-  margin-top: 150px;
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -108,16 +107,25 @@ body {
   border: 1px solid aqua;
   flex: 1;
   height: 70px;
+  color: black;
+  padding: 10px 30px;
+  gap: 8px;
 }
 .properties {
   border: 1px solid aqua;
   flex: 1;
   height: 70px;
+  color: black;
+  padding: 10px 30px;
+  gap: 8px;
 }
 .Price {
   border: 1px solid aqua;
   flex: 1;
   height: 70px;
+  color: black;
+  padding: 10px 30px;
+  gap: 8px;
 }
 .searchloc {
   display: flex;
@@ -337,6 +345,9 @@ body {
   gap: 30px;
 }
 .column2img1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 370px;
   height: 255px;
   background-image: url("https://assets.weforum.org/global_future_council/image/Y2csagn-AQZcZMxVLJGl9-JAFJdBlnsyKfp05X4-onY.jpg");
@@ -370,6 +381,9 @@ body {
   /* margin-top: 143px; */
 }
 .column2img2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 370px;
   height: 255px;
   background-image: url("https://www.thesun.co.uk/wp-content/uploads/2023/01/houses-parliament-big-ben-double-780545902.jpg");
@@ -404,6 +418,9 @@ body {
   /* margin-top: 143px; */
 }
 .column3img1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 370px;
   height: 255px;
   background-image: url("https://i.natgeofe.com/k/8dc7401d-fac9-43c5-a6d4-d056401f7779/kuala-lumpur.jpg?w=1084.125&h=721.875");
@@ -436,6 +453,9 @@ body {
   margin-top: px;
 }
 .column3img2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 370px;
   height: 255px;
   background-image: url("https://i.natgeofe.com/k/42e832f5-fd48-43ff-b338-091bdf4048ca/india-tajmahal_16x9.jpg?w=1200");
